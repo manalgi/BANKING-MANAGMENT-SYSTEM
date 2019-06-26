@@ -15,26 +15,26 @@ simple version of banking system
   0)the main<br/>
         -the user has 6 option to choose, where the last one is to exit the program if not it will keep running in a loop.<br /> <br />
   1)adding new account: <br />
-        -automaticlly will creat new file with the name "DB.txt" unless it is already exist.
+        -automaticlly will creat new file with the name "DB.txt" unless it is already exist.<br />
         -call the function check() where it will check what is the last Customer ID that has been created and will increase 
-        by 1 in order to keep the IDs orginized and unique
+        by 1 in order to keep the IDs orginized and unique<br />
         -call the function new_acc() where the user input his data and then the data will be written into the DB.txt  file<br /><br />
   2)updating it<br />
-        -call the function edit() where the user has two choice of update; his address or his phone number.
-        -the function will create new file "DBtemp.txt" and copy the data from DB.txt except the new edited one.
+        -call the function edit() where the user has two choice of update; his address or his phone number.<br />
+        -the function will create new file "DBtemp.txt" and copy the data from DB.txt except the new edited one.<br />
         -DB.txt will get deleted and DBtemp.txt will become the new updated file by rename it to DB.txt<br /><br />
   3)removing it<br />
-        -call the function earse() , the user will enter the ID number of the wanted customer
-        -the function will create new file "DBtemp.txt" and copy the data from DB.txt except the one that need to be deleted.
+        -call the function earse() , the user will enter the ID number of the wanted customer<br />
+        -the function will create new file "DBtemp.txt" and copy the data from DB.txt except the one that need to be deleted.<br />
         -DB.txt will get deleted and DBtemp.txt will become the new updated file by rename it to DB.txt<br /><br />
   4)transaction from one account to other |deposit |withdraw<br />
-        -call the function transact() , the user will have 3 option of transaction:
+        -call the function transact() , the user will have 3 option of transaction:<br />
             -deposite money; 
             -withdraw money
-            -send money to another account 
+            -send money to another account <br />
         -the function will create new file "DBtemp.txt" and copy the data from DB.txt and will calculate the new amount of money
         in the wanted account accordingly (adding|reduching). and if the user chose optiong 3 (send money) and the account exist 
-        in the system DB then it will also be calculated and updated.
+        in the system DB then it will also be calculated and updated.<br />
         -DB.txt will get deleted and DBtemp.txt will become the new updated file by rename it to DB.txt<br /><br />
   5)showing list of all customers<br />
         -call the function view_list() and will read and output all the accounts data that exist in the file DB.txt<br /><br />
