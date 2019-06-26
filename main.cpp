@@ -44,6 +44,9 @@ void new_acc(int Cnum) {
 void check() {
 	int Cnum = 11111;
 	string line;
+	ofstream file("DB.txt");
+	file.close();
+	
 	ifstream myfile("DB.txt");
 	if (myfile.is_open())
 	{
