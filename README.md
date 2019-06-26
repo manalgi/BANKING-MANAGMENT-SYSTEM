@@ -40,7 +40,7 @@ simple version of banking system
         -call the function view_list() and will read and output all the accounts data that exist in the file DB.txt<br /><br />
         
         
- for compilation:<br />
+ for compilation (only for c++11 version and above):<br />
     -open terminal and change the directory/folder to where the source code is<br />
     -compile: g++ main.cpp -o main.exe<br />
     -run the executable: main.exe<br />
